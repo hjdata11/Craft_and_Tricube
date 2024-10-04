@@ -44,18 +44,18 @@ python traintricube.py
 ## 모델 설명
 
 이 프로젝트는 CRAFT 및 Tricubenet 모델 기반으로 학습되었습니다.
-### CRAFT 모델 주요 학습 설정
+### CRAFT 모델 주요 특징 및 학습 설정
 - VGG16 백본기반의 U-net구조
-- Feature fusion score map 생성 (Character 및 Word 단위 Feature)
+- Feature fusion score map 생성 (Character 및 Word 단위 Feature를 모두 생성후 합침)
 - Weakly-Supervised Learning: character 단위 Bounding Box 레이블이 없는 경우, character는 모델이 추론하고 word 레이블만 학습
 - Strong-Supervised Learning: character 및 word 단위 레이블을 모두 학습
-- Line Kernel을 제작하여 학습
+- Line Kernel 제작 및 학습
 - 입력 이미지 크기: 1024
 - Adam 옵티마이저, WarmupPolyLR 스케줄러
 - Batch size: 16
 - 50 에폭 학습
 
-### Tricubenet 모델 주요 학습 설정
+### Tricubenet 모델 주요 특징 및 학습 설정
 - Hourglass-104 백본
 - Heatmap cascade refinement
 - Multi Angle Convolution
