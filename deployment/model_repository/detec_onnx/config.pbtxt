@@ -1,0 +1,23 @@
+name: "print_detection_onnx"
+default_model_filename: "print_detection_onnx.onnx"
+platform: "onnxruntime_onnx"
+max_batch_size : 1
+input [
+  {
+    name: "input"
+    data_type: TYPE_FP32
+    dims: [ 3, 1024, 1024 ]
+  }
+]
+output [
+  {
+    name: "output"
+    data_type: TYPE_FP32
+    dims: [ 512, 512, 2 ]
+  },
+  {
+    name: "output1"
+    data_type: TYPE_FP32
+    dims: [ 32, 512, 512 ]
+  }
+]
