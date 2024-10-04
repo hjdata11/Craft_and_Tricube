@@ -106,19 +106,19 @@ dataset/
 ### 학습 데이터셋
 |데이터 이름|개수|설명|
 |:---:|:---:|:---:|
-|Generated Dataset 버전1|10000장|한글 및 수식이 혼합된 Dataset|
-|Generated Dataset 버전2|10000장|한글 및 수식이 혼합된 Dataset (여백, 작은 숫자, 수식 추가)|
+|Generated Dataset Version 1|10000장|한글 및 수식이 혼합된 Dataset|
+|Generated Dataset Version 2|10000장|한글 및 수식이 혼합된 Dataset (여백, 작은 숫자, 수식 추가)|
 |AIHUB 한국어 글자체 이미지 Dataset|5000장|정형화된 한글이미지 Dataset|
 |AIHUB 금융업 특화 문서 OCR Dataset|5000장|비정형화 한글 이미지 Dataset|
 |SynthText 한국어 글자체 이미지|10000장|다양한 배경화면에 대한 한글 이미지 Dataset|
 
 
 ### 검증 데이터셋
-8000 BenchMark Dataset
+BenchMark Dataset
 |데이터 이름|개수|설명|
 |:---:|:---:|:---:|
-|Generated Dataset 버전1|2000장|한글 및 수식이 혼합된 Dataset 평가|
-|Generated Dataset 버전2|2000장|한글 및 수식이 혼합된 Dataset (여백, 작은 숫자, 수식 추가) 평가|
+|Generated Dataset Version 1|2000장|한글 및 수식이 혼합된 Dataset 평가|
+|Generated Dataset Version 2|2000장|한글 및 수식이 혼합된 Dataset (여백, 작은 숫자, 수식 추가) 평가|
 |AIHUB 한국어 글자체 이미지 Dataset|1000장|정형화된 한글이미지 Dataset 평가|
 |AIHUB 금융업 특화 문서 OCR Dataset|1000장|비정형화 한글 이미지 Dataset  평가|
 |SynthText 한국어 글자체 이미지|2000장|다양한 배경화면에 대한 한글 이미지 Dataset 평가|
