@@ -1,7 +1,7 @@
 # 문제의 수식 및 텍스트 인식을 위한 Scene Text Detection 시스템
 
 ## 개요
-CRAFT 모델: text_score 및 link_score를 활용하여 문자(character) 및 단어(word) 단위의 텍스트 검출을 추출할 수 있는 모델.
+CRAFT 모델: text_score 및 link_score를 활용하여 문자(character) 및 단어(word) 단위의 텍스트 검출을 추출할 수 있는 모델.   
 TricubeNet 모델: Feature Pyramid Network(FPN) 형태의 백본을 사용하여 위치 특징 추출 성능이 향상되었으며, Multi Angle Convolution을 통해 다양한 각도의 텍스트 방향을 효과적으로 처리하며, 단어(word) 단위의 텍스트 검출이 가능한 모델.
 
 
