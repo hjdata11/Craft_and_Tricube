@@ -62,7 +62,9 @@ python traintricube.py
  - RandomMirror
  - Normalize
 
- ### 데이터셋 구조
+## 데이터셋
+
+### 데이터셋 구조
 데이터셋의 구조는 다음과 같습니다:
 ```shell
 dataset/
@@ -125,5 +127,5 @@ BenchMark Dataset
 
 
 ## 성능
-검증 데이터셋 Scene Text Detection 주요 성능 지표:
+검증 데이터셋 Scene Text Detection 주요 성능 지표:   
 precision : 92.32%, recall : 77.22%, hmean(F-score) : 84.03%
